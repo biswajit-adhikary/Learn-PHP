@@ -46,7 +46,7 @@
     // Ternary operator unexpected results fix
     $x = 10;
     $result = ($x % 2 == 0) ? "A\n" : (($x % 2 == 1) ? "B\n" : "C\n");
-    echo $result; // Result should be A but it showing B
+    echo $result;
 
 
 
